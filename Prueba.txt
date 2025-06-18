@@ -1,1 +1,11 @@
-# Proyecto Bit a Bit 2
+Funcionalidades interactivas Detalladas
+- Giro 3D del plato modelo
+- al pasar sobre los ingredientes del plato 
+modelo estos flotan del plato y giran en su 
+propio ejer  ademas que muestra una ventana 
+con un tiempo de carga corto un poco de 
+historia del ingrediente o como es su 
+recoleccion o etc.
+-(opcional)
+- que haya un mapa donde si haces click te muestra un mapa de puno y te dice donde es el lugar de creacion del plato mostrando ademas los lugares de otros platos en el mismo mapa
+ 
