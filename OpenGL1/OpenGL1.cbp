@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="OpenGL2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/OpenGL1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/OpenGL1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="../../OpenGL/include" />
+			<Add directory="../../../../../../../../msys64/mingw64/include/freetype2" />
+		</Compiler>
+		<Linker>
+			<Add library="glfw3" />
+			<Add library="opengl32" />
+			<Add library="gdi32" />
+			<Add library="../../../../../../../../msys64/mingw64/lib/libfreetype.dll.a" />
+			<Add directory="../../OpenGL/lib" />
+			<Add directory="../../../../../../../../msys64/mingw64/lib" />
+		</Linker>
+		<Unit filename="../../OpenGL/glad.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="include/aplicacion.h" />
+		<Unit filename="include/estado.h" />
+		<Unit filename="include/renderizartexto.h" />
+		<Unit filename="include/shader.h" />
+		<Unit filename="include/textura.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/RenderText.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
